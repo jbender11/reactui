@@ -16,7 +16,6 @@ public class Main extends Application {
 			Button button  = new Button("Press Me!");
 			button.setOnAction(e -> System.out.println("Button clicked!!!!!!!!!!!!"));
 			button.setOnAction(e -> {
-				System.out.println("Hello World.");
 			});
 			StackPane layout = new StackPane();
 			layout.getChildren().add(button);
